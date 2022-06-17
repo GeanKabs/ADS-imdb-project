@@ -111,7 +111,7 @@ if selection == 'IMDb Movies Snapshot':
                 )
         plt.title('Best performing Genres')
         st.pyplot(plt)
-        '''
+        
     with col6:
         st.subheader("Worst Movies by Genre (Revenue)")
         bottom_5_sales = df_bestRevenue.iloc[5:]
@@ -126,7 +126,7 @@ if selection == 'IMDb Movies Snapshot':
                 )
         plt.title('Worst Performing Genres')
         st.pyplot(plt)
-        '''
+        
     # New Movies Vs. Older Movies
     st.header("New Movies Vs. Older Movies")
     df_newMovies = df.groupby(["movie title"])['release year'].min().reset_index()
