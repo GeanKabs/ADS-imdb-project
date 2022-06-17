@@ -16,7 +16,7 @@ import streamlit.components.v1 as components
 st.set_page_config(layout="wide", initial_sidebar_state="expanded", page_title='IMDb Movie Ratings Dashboard')
 
 #Loading the available data and overview
-path = "/home/gk/Projects Exercises/imdb/movies_8100.csv"
+path = "movies_8100.csv"
 st.sidebar.header('Top 8100 Movies')
 data = st.sidebar.file_uploader("Upload Dataset", type=['csv', 'txt', 'xlsx'])
 
