@@ -157,8 +157,60 @@ elif selection == 'Analysis':
         #data descriptiion
         st.markdown("Description statistics ")
         st.write(df.describe())
-        
-        
+       
+# adding html Template
+footer_temp = """
+<!-- CSS -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzIco0wtJAoU8YZTY5qE01d1GSseTk6S+L3BlxeVIU" crossorigin="anonymous">
+footer class="page-footer grey darken-4">
+<div class ="container" id="aboutapp">
+<div class="row">
+<div class="col 16 s12">
+<h5 class="white-text">Movie Analysis App</h5>
+<h6 class="grey-text text-lighten-4">This is Africa Data School</p>
+<p class="grey-text text-lighten-4">January 2022 Cohort</p>
+</div>
+<div class="col l3 s12">
+<h5 class="white-text">Connect with Us</h5>
+<ul>
+<a href="https://www.facebook.com/AfricaDataSchool/" target="_blank" class="white-text">
+<i class="fab fa-facebook fa-4x"></i>
+</a>
+<a href="https://www.linkedin.com/company/africa-data-school" target="_blank" class="white-text">
+<i class="fab fa-linkedin fa-4x"></i>
+</a>
+<a href="https://www.youtubr.com/watch?v=zRdlQwNTJo" target="_blank" class="white-text">
+<i class="fab fa-youtube-square fa-4x"></i>
+</a>
+<a href="https://github.com/Africa-Data-School" target="_blank" class="white-text">
+<i class="fab fa-github-square fa-4x"></i>
+</a>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-copyright">
+<div class="container">
+Made by <a class="white-text text-lighten-3" href="https://africadataschool.com/">Re.... </a><br/>
+<a class="white-text text-lighten-3" href="https://africadataschool.com"></a>
+</div>
+</div>
+</footer>
+"""
+
+if selection == 'About':
+    st.header("About App")
+    components.html(footer_temp, height=500)
+    
+
+
+    
+    
+
         
                  
         
