@@ -159,7 +159,7 @@ elif selection == 'Analysis':
         st.write(df.describe())
        
 # adding html Template
-footer_temp = """
+footer_temp =
 <!-- CSS -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
@@ -200,7 +200,7 @@ Made by <a class="white-text text-lighten-3" href="https://africadataschool.com/
 </div>
 </div>
 </footer>
-"""
+
 
 if selection == 'About':
     st.header("About App")
