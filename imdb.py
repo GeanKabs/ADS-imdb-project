@@ -165,8 +165,8 @@ footer_temp = """
 <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
 type="text/css" rel="stylesheet" media="screen,projection"/>
 <link href="static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzIco0wtJAoU8YZTY5qE01d1GSseTk6S+L3BlxeVIU" crossorigin="anonymous">
-footer class="page-footer grey darken-4">
+<integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzIco0wtJAoU8YZTY5qE01d1GSseTk6S+L3BlxeVIU" crossorigin="anonymous">
+<footer class="page-footer grey darken-4">
 <div class ="container" id="aboutapp">
 <div class="row">
 <div class="col 16 s12">
@@ -195,7 +195,8 @@ footer class="page-footer grey darken-4">
 </div>
 <div class="footer-copyright">
 <div class="container">
-Made by <a class="white-text text-lighten-3" href="https://africadataschool.com/">Re.... </a><br/>
+<Made by <a class="white-text text-lighten-3" href="https://africadataschool.com/">Re.... ></a>
+<br/>
 <a class="white-text text-lighten-3" href="https://africadataschool.com"></a>
 </div>
 </div>
