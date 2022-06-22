@@ -139,7 +139,7 @@ if selection == 'IMDb Movies Snapshot':
     # New Vs. Existing User Revenue Analysis
     df_newMoviesRevenue = df2.groupby(["release year", "NewMovie"])["Revenue"].sum().reset_index()
     plt.figure(figsize=(30, 20))
-    sns.relplot(x="release year", y="Revenue", hue="NewMovie", data=df_newMoviesRevenue, kind="line", height=12,
+    sns.relplot(x="release year", y="Revenue", data=df_newMoviesRevenue, kind="line", height=12,
                 aspect=18 / 10 )
     plt.title("New Vs Older Movies Revenue Overview")
     plt.xlabel("release date")
